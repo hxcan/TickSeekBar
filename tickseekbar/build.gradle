@@ -48,6 +48,14 @@ android {
         }
     }
 
+  publishing
+  {
+    singleVariant('release')
+    {
+      withSourcesJar()
+    }
+  }
+
 }
 
 dependencies {
@@ -68,7 +76,7 @@ afterEvaluate
         from components.release
         groupId = 'com.github.hxcan'
         artifactId = 'TickSeekBar'
-        version = '2024.8.21'
+        version = '2024.8.22'
       }
     }
   }
