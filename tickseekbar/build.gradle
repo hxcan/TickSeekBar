@@ -28,6 +28,7 @@ ext {
 
 android {
     compileSdkVersion 27
+    namespace 'com.warkiz.tickseekbar'
 
     defaultConfig {
         minSdkVersion 14
@@ -52,5 +53,5 @@ dependencies {
     compileOnly 'com.android.support:appcompat-v7:27.1.1'
 }
 
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+// apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+// apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

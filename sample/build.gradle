@@ -2,6 +2,8 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 27
+    namespace 'com.warkiz.tickseekbar.sample'
+    
     defaultConfig {
         applicationId "com.warkiz.tickseekbar.sample"
         minSdkVersion 14
